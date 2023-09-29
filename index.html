@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="resources/media/ArklightLogo.ico" type="image/x-icon">
+    <style>
+        /* Style for the header bar */
+        @font-face {
+            font-family: Lexend;
+            src: url(Lexend-VariableFont_wght.ttf);
+        }
+        header {
+            background-color: #333;
+            color: #b8b6b6;
+            padding: 10px 0;
+            text-align: left;
+            font-family: Lexend, sans-serif ;
+        }
+
+        /* Style for the navigation buttons */
+        .nav-btn {
+            display: inline-block;
+            margin-right: 20px;
+            text-decoration: none;
+            color: #b8b6b6;
+            font-weight: bold;
+            position: relative; /* Add position relative to position the line */
+        }
+
+        /* Add a border-right to create lines between buttons */
+        .nav-btn:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -15px;
+            transform: translateY(-50%);
+            height: 18px; /* Adjust the height of the line as needed */
+            border-right: 3px solid #b8b6b6; /* Line color and thickness */
+        }
+
+        /* Hover effect for the buttons */
+        .nav-btn:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+        
+        h1 {
+            font-family: Lexend, sans-serif;
+            text-align: center;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header bar -->
+    <header>
+        <img class="icon" src="resources/media/ArklightLogo5.png" alt="Arklight Logo Icon" style="max-width: 65px; text-align: left; margin-bottom: -45px; margin-left: 8px;">
+        <div style="text-align: center; margin-bottom: 20px; font-size: x-large;">
+        <a class="nav-btn" href="index.html">Home</a>
+        <a class="nav-btn" href="about.html">About</a>
+        <a class="nav-btn" href="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <!-- The rest of your website content goes here -->
+<hr>
+<h1>
+    Hello! I'm Uniz0r, and this is my Webpage!
+</h1>
+<p>
+
+</p>
+</body>
+</html>
